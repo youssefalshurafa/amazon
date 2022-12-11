@@ -32,6 +32,8 @@ function Product({ id, title, price, description, category, thumbnail }) {
           dispatch(
             addToBasket({
               id,
+              description,
+              category,
               title,
               thumbnail,
               price,
